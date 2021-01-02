@@ -20,7 +20,7 @@
  \.____________________/_||../        ^\  /   /   ~~~~ |        /'
                                         -._     |  ||    \ _.-'
                                             ~-..________..-~
-USS DEPLOYER
+U.S.S. DEPLOYER
 
 Docker image with different tools I need for deployment:
 
