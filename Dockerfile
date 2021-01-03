@@ -2,6 +2,12 @@
 
 FROM alpine:latest
 
+# set Environment
+
+ENV AWS_SECRET=
+ENV AWS_KEY=
+
+
 # Deploy tools 
 
 RUN apk add --update-cache \
@@ -12,7 +18,8 @@ RUN apk add --update-cache \
             openssl-dev \
             zlib-dev \
             curl \
-            unzip
+            unzip \
+	    jq
 
 RUN mkdir -p /install && mkdir /git
 
